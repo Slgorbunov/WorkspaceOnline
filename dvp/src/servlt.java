@@ -38,7 +38,7 @@ public class servlt extends HttpServlet {
 	       "<p>This whole page was created via servlet</p>\n" +
 	       "</body></html>"); 
 	    //new comment1
-	    //new com2
+	    //изменение в проекте 1
 	    
 	}
 
