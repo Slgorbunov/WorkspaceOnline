@@ -4,20 +4,22 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Servlet
+ * Servlet implementation class MultipleValueFieldHandlerServlet
  */
-public class Servlet extends HttpServlet {
+@WebServlet("/MultipleValueFieldHandlerServlet")
+public class MultipleValueFieldHandlerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Servlet() {
+    public MultipleValueFieldHandlerServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,16 +29,6 @@ public class Servlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		try{
-	           response.setContentType("text/html");
-	           PrintWriter printWriter = response.getWriter();
-	           printWriter.println("<h1>");
-	           printWriter.println("I'm reading this!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!23");
-	           printWriter.println("</h1>");
-	        }
-	        catch (IOException e){
-	            e.printStackTrace();
-	        }
 	}
 
 	/**
@@ -45,19 +37,14 @@ public class Servlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.setCharacterEncoding("UTF-8");
-		String enteredValue;
-		enteredValue = request.getParameter("enteredValue");
+		String[] enteredValue;
+		enteredValue = request.getParameterValues("options");
 		response.setContentType("text/html");
-		PrintWriter printWriter;
+		request.setAttribute("enteredValue", enteredValue);//setAttribute in request for send to another servlet
 		try{
-			printWriter = response.getWriter();
-			printWriter.println("<p>");
-			printWriter.println("Вы ввели");
-			printWriter.println(enteredValue);
-			printWriter.println("</p>");
-			request.getRequestDispatcher("servlettst").forward(request, response);
+			request.getRequestDispatcher("ConfirmationServlet").forward(request, response);
 		}
-		catch(IOException e){
+		catch(Exception e){
 			e.printStackTrace();
 		}
 	}

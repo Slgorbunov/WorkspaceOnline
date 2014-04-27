@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="post" action="MultipleValueFieldHandlerServlet">
+	<p>Пожалуйста, выбирете одно или несколько значений.</p>
+		<table>
+			<tr>
+				<td><input name="options" type="checkbox" value="option1"/>Option1</td>
+			</tr>
+			<tr>
+				<td><input name="options" type="checkbox" value="option2"/>Option2</td>
+			</tr>
+			<tr>
+				<td><input name="options" type="checkbox" value="option3"/>Option3</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Отправить"/></td>
+			</tr>
+		</table>
+	</form>
+	<form method="post" action="ResponseRedirectionServlet">
+	<p>Пожалуйста, выбирете одно или несколько значений.</p>
+		<table>
+			<tr>
+				<td><input name="SE" type="checkbox" value="http://www.yandex.ru/"/>Option1</td>
+			</tr>
+			<tr>
+				<td><input name="SE" type="checkbox" value="https://www.google.ru/"/>Option2</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Отправить"/></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
