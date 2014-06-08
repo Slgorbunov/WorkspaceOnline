@@ -1,0 +1,16 @@
+1 Jun 2014 20:34:25 GMT Найден результат: Такелажные работы на странице 3
+ссылка http://yandex.ru/yandsearch?p=2&lr=213&text=%D0%A2%D0%B0%D0%BA%D0%B5%D0%BB%D0%B0%D0%B6%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B
+1 Jun 2014 20:34:25 GMT Найден результат: Перевозка оборудования на странице 5
+ссылка http://yandex.ru/yandsearch?p=4&lr=213&text=%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
+1 Jun 2014 20:34:25 GMT Найден результат: Подъем грузов на странице 18
+ссылка http://yandex.ru/yandsearch?p=17&lr=213&text=%D0%9F%D0%BE%D0%B4%D1%8A%D0%B5%D0%BC%20%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%B2
+3 Jun 2014 12:41:36 GMT Найден результат: Такелажные работы на странице 3
+ссылка http://yandex.ru/yandsearch?p=2&lr=213&text=%D0%A2%D0%B0%D0%BA%D0%B5%D0%BB%D0%B0%D0%B6%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B
+3 Jun 2014 12:41:36 GMT Найден результат: Перевозка оборудования на странице 5
+ссылка http://yandex.ru/yandsearch?p=4&lr=213&text=%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
+3 Jun 2014 12:41:36 GMT Найден результат: Подъем грузов на странице 18
+ссылка http://yandex.ru/yandsearch?p=17&lr=213&text=%D0%9F%D0%BE%D0%B4%D1%8A%D0%B5%D0%BC%20%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%B2
+8 Jun 2014 13:27:32 GMT Найден результат: Погрузочные работы на странице 1
+ссылка http://yandex.ru/yandsearch?lr=213&text=%D0%9F%D0%BE%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B5+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B
+8 Jun 2014 13:27:32 GMT Найден результат: Такелажные работы на странице 3
+ссылка http://yandex.ru/yandsearch?lr=213&text=%D0%A2%D0%B0%D0%BA%D0%B5%D0%BB%D0%B0%D0%B6%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B&p=2

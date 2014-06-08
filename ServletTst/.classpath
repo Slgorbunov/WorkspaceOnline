@@ -13,6 +13,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="lib/javaee.jar"/>
+	<classpaВыполнение такелажных работ любой сложности. Перевозка грузов, подъем и подача в оконные проёмыthentry kind="lib" path="lib/javaee.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
