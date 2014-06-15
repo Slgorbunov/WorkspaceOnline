@@ -62,7 +62,7 @@ public class NparniCounter {
 		date = new Date();
 		//File flt = new File("C:\\Users\\viacheslav\\HomeWorkspace\\NparniCounter\\np.txt");
 		try {
-			out = new FileWriter("C:/Users/viacheslav/HomeWorkspace/NparniCounter/np.txt", true);
+			out = new FileWriter("D:/git/WorkspaceOnline/NparniCounter/np.txt", true);
 			//out.flush();
 		} catch (Exception e1) {
 			e1.printStackTrace();

@@ -1,0 +1,32 @@
+<web-app
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+        id="glassfish4-clickstart" version="3.0" metadata-complete="false">
+   <security-constraint>
+       <display-name>private_zone</display-name>
+       <web-resource-collection>
+           <web-resource-name>private articles</web-resource-name>
+           <description/>
+           <url-pattern>/private/*</url-pattern>
+           <http-method>GET</http-method>
+           <http-method>POST</http-method>
+       </web-resource-collection>
+       <auth-constraint>
+           <description/>
+           <role-name>private</role-name>
+       </auth-constraint>
+   </security-constraint>
+   <login-config>
+       <auth-method>FORM</auth-method>
+       <realm-name>jdbcRealm</realm-name>
+       <form-login-config>
+           <form-login-page>/private/login.jsp</form-login-page>
+           <form-error-page>/private/error.jsp</form-error-page>
+       </form-login-config>
+   </login-config>
+   <security-role>
+       <description/>
+       <role-name>private</role-name>
+   </security-role>
+</web-app>
